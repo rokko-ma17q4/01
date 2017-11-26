@@ -181,15 +181,23 @@ Then click "Commit button." A new window will open and you will be requested to 
 
 Think of commit as journaling. When you've done something important, always make a commit to record the change. (Be generous when judging "importance.")
 
-## Step 8. Open a Pull Request {-}
+## Step 8. Publish/Push and Open a Pull Request {-}
 
-Let's go back to GitHub Desktop application. Find the homework repository on the left column. The History tab shows what you did. Check that every change you are supposed to make is highlighted by green (addition) and red (deletion). 
+Let's go back to GitHub Desktop application. Navigete to the homework repository; now you are working on hw01. The "History" tab shows what changes you made. Check that every change you are supposed to make is highlighted by green (addition) and red (deletion). If you don't see anything important, check if you surely "commit"ted your changes.
 
-```{r, pull-request, fig.align='center', fig.cap='Pull Request', echo=FALSE}
-knitr::include_graphics("asset/images/pull-request.png")
+```{r, publish, fig.align='center', fig.cap='Publish', echo=FALSE}
+knitr::include_graphics("asset/images/publish.png")
 ```
 
-Click "Pull Request" button (Figure \@ref(fig:pull-request)), write a short nice description and click "Send Pull Request."
+Now the time to put them on the server. Click "Publish branch" button (Figure \@ref(fig:publish)), the files are sent to the server. 
+
+Wait! Submission's not done yet!
+
+You need to make a "Pull Request" to notify the lecturer about your having uploading your homework assignment. Navigate through "Branch > Pull Request" (Figure \@ref(fig:pr)) or simply hit "Command+R". Then follow the instructions of GitHub web service.
+
+```{r, pr, fig.align='center', fig.cap='Pull Request (PR)', echo=FALSE}
+knitr::include_graphics("asset/images/pr.png")
+```
 
 Congratulations, you are done!
 
